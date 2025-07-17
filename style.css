@@ -1,0 +1,63 @@
+.course-catalog table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.course-catalog table th,
+.course-catalog table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.course-catalog table th {
+    background-color: #d9edf7;
+    color: black;
+    font-weight: bold;
+}
+
+.course-catalog table tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+.course-catalog table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.course-catalog .course-section h2 {
+    font-family: var(--book-weight-sans) !important;
+    font-size: 30px !important;
+    line-height: 38px !important;
+}
+.course-catalog h3 {
+    font-family: var(--semi-bold-sans) !important;
+    font-size: 22px !important;
+    line-height: 28px !important;
+}
+.course-catalog .areaheader {
+    background-color: #d9edf7 !important;
+    font-weight: bold;
+    font-style: normal !important;
+}
+
+.course-catalog .areasubheader {
+    font-weight: bold;
+    font-style: normal !important;
+}
+
+.course-catalog span.courselistcomment {
+    font-style: italic;
+}
+
+.course-catalog td.hourscol {
+    white-space: nowrap;
+}
+
+.course-catalog span.courselistcomment.commentindent {
+    font-style: normal;
+}
+
+.course-catalog tr.listsum {
+    font-weight: bold;
+}
